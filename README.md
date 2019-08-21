@@ -31,6 +31,8 @@ Known issues
 This is in development. It only works on ascii ply point clouds.
 This is a very lossy process. 
 
+Currently writing tests.
+
 ### Version 0.01 (Date):
 init
 
