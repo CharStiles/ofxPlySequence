@@ -15,72 +15,13 @@
 # and the PG will write to the console the kind of error and in which line it is
 
 meta:
-	ADDON_NAME = ofxAddonTemplate
-	ADDON_DESCRIPTION = ofxAddonTemplate is amazing!
-	ADDON_AUTHOR = @yournamehere
+	ADDON_NAME = ofxPlySequence
+	ADDON_DESCRIPTION = Play PLY sequences by compressing them. Very lossy, but you can comfortably play 1000 ply files w 100,000 points
+	ADDON_AUTHOR = @charstiles
 	ADDON_TAGS = "addon" "template"
-	ADDON_URL = http://github.com/yournamehere/ofxAddonTemplate
+	ADDON_URL = http://github.com/charstiles/ofxPlySequence
 
 common:
-	# dependencies with other addons, a list of them separated by spaces 
-	# or use += in several lines
-	# ADDON_DEPENDENCIES =
-	
-	# include search paths, this will be usually parsed from the file system
-	# but if the addon or addon libraries need special search paths they can be
-	# specified here separated by spaces or one per line using +=
-	# ADDON_INCLUDES =
-	
-	# any special flag that should be passed to the compiler when using this
-	# addon
-	# ADDON_CFLAGS =
-	
-	# any special flag that should be passed to the compiler for c++ files when 
-	# using this addon
-	# ADDON_CPPFLAGS =
-	
-	# any special flag that should be passed to the linker when using this
-	# addon, also used for system libraries with -lname
-	# ADDON_LDFLAGS =
-	
-	# source files, these will be usually parsed from the file system looking
-	# in the src folders in libs and the root of the addon. if your addon needs
-	# to include files in different places or a different set of files per platform
-	# they can be specified here
-	# ADDON_SOURCES =
-	
-	# source files that will be included as C files explicitly
-	# ADDON_C_SOURCES = 
-	
-	# source files that will be included as header files explicitly
-	# ADDON_HEADER_SOURCES = 
-	
-	# source files that will be included as c++ files explicitly
-	# ADDON_CPP_SOURCES = 
-	
-	# source files that will be included as objective c files explicitly
-	# ADDON_OBJC_SOURCES = 
-	
-	# derines that will be passed to the compiler when including this addon
-	# ADDON_DEFINES
-	
-	# some addons need resources to be copied to the bin/data folder of the project
-	# specify here any files that need to be copied, you can use wildcards like * and ?
-	# ADDON_DATA = 
-	
-	# when parsing the file system looking for libraries exclude this for all or
-	# a specific platform
-	# ADDON_LIBS_EXCLUDE =
-	
-	# binary libraries, these will be usually parsed from the file system but some 
-	# libraries need to passed to the linker in a specific order/
-	# 
-	# For example in the ofxOpenCV addon we do something like this:
-	#
-	# ADDON_LIBS =
-	# ADDON_LIBS += libs/opencv/lib/linuxarmv6l/libopencv_legacy.a
-	# ADDON_LIBS += libs/opencv/lib/linuxarmv6l/libopencv_calib3d.a
-	# ...
 	
 	
 linux64:
