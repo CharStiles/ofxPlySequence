@@ -3,7 +3,7 @@ PlySequence
 
 Introduction
 ------------
-This addon for playing large sequences of point cloud PLY files. This converts the point clouds to PNGs and plays them back using shaders to read the point cloud data off of tif files. Its sort of utilizing image compresion for point cloud compression. No one asked for this.
+This addon for playing large sequences of point cloud PLY files. This converts the point clouds to PNGs and plays them back using shaders to read the point cloud data off of tif files. Its sort of utilizing image compresion for point cloud compression. This tool was created while I was an assitant to Nica Ross on their work "Gender Nonconforming Brazilian Jiu Jitsu Motion Capture" you can see some more about what I worked on here: http://charstiles.com/gender-nonconforming-brazilian-jiu-jitsu-motion-capture/
 
 License
 -------
