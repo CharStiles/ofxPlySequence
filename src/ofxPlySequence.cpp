@@ -127,7 +127,7 @@ void ofApp::compressAndSave(string fileName){
 
 		auto v = meshes[ix].getVertex(i); // a point position v.x = the x position
 		int x = i % w;
-		int y = i / h;
+		int y = i / w;
 
 		UINT64 red = (UINT32)(((long double)(v.x + 150)) * d); // get rid of decimal
 		UINT16 red1 = (UINT16)(red & 0x0000ffff);
@@ -154,7 +154,7 @@ void ofApp::compressAndSave(string fileName){
 		if (i == size - 1) {
 			while (i < w * h) {
 				int x = i % w;
-				int y = i / h;
+				int y = i / w;
 				pixels.setColor(x, y, ofColor((float)red1, (float)red2, (float)red3));
 				pixels.setColor(x + w, y, ofColor((float)green1, (float)green2, (float)green3));
 				pixels.setColor(x, y + h, ofColor((float)blue1, (float)blue2, (float)blue3));
